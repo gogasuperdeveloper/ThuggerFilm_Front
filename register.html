@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <title>Реєстрація — ThuggerFilm</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">ThuggerFilm</a>
+      <nav>
+        <a href="login.html">Вхід</a>
+        <a href="register.html">Реєстрація</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Реєстрація</h1>
+      <form id="register-form">
+        <input name="username" placeholder="Логін" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="password" type="password" placeholder="Пароль" required>
+        <button type="submit">Зареєструватися</button>
+      </form>
+      <p id="message"></p>
+    </main>
+    <footer>© 2026 ThuggerFilm</footer>
+    <script src="js/api.js"></script>
+    <script src="js/register.js"></script>
+  </body>
+</html>
